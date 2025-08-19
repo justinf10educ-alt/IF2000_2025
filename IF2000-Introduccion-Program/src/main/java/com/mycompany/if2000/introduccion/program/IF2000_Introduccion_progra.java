@@ -8,6 +8,8 @@ package com.mycompany.if2000.introduccion.program;
  *
  * @author Justin Flores
  */
+
+import domain.Person;
 public class IF2000_Introduccion_progra {
 
     /**
@@ -17,7 +19,10 @@ public class IF2000_Introduccion_progra {
         // TODO code application logic here
         
         //Data types
+       Person p = new Person("Oscar","Solis","7-0321-8543", "86574534", 20);
+       System.out.println(p.toString());
         
+        /*
         String name = "Lionel";
         int age = 40;
         float heigh = 40;
@@ -50,6 +55,7 @@ public class IF2000_Introduccion_progra {
         //Python:
         print("Hola Mundo")
         */
+        
     
         
     }
