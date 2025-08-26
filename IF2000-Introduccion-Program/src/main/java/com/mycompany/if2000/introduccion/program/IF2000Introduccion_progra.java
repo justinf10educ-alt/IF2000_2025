@@ -18,39 +18,36 @@ public class IF2000Introduccion_progra{
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        
+
         Ejercicio_Semana2_PracticaEnClase eje = new Ejercicio_Semana2_PracticaEnClase();
-        
-        //eje.Quiz2_piramide(5);
-        //eje.Ejercicio_A(5);
-        //eje.Ejercicio_B(12);
-        //eje.Ejercicio_C(12);
-        
-        /*Ejercicio_D
-        int[] arreglo = eje.ingresarNumeros();
-        
-        // Ordena el arreglo
-        eje.ordenarAscendente(arreglo);
-        
-        // Imprime el arreglo
-        eje.imprimeArreglo(arreglo);
-        *///end exercise D
-        
-        /*Ejercicio E
-        // Genera números aleatorios
-        int[] arreglo = eje.generarNumerosAleatorios();
-        
-        // Ordena de forma descendente
-        eje.ordenarDescendente(arreglo);
-        
-        // Imprime el resultado
-        eje.imprimirArregloGrande(arreglo);
-        */
-        
-        /*Ejercicio F
+
+        // Ejercicio A - Dibuja una pirámide
+        eje.Quiz2_piramide(5);
+
+        // Ejercicio B - Dibuja un cuadro hueco
+        eje.Ejercicio_A(5);
+
+        // Ejercicio C - Triángulo invertido
+        eje.Ejercicio_B(12);
+
+        // Ejercicio D - Triángulo invertido desplazado
+        eje.Ejercicio_C(12);
+
+        // Ejercicio D - Ingresar, ordenar y mostrar arreglo
+        int[] arregloAsc = eje.ingresarNumeros();
+        eje.ordenarAscendente(arregloAsc);
+        eje.imprimeArreglo(arregloAsc);
+
+        // Ejercicio E - Generar, ordenar descendente y mostrar arreglo
+        int[] arregloDesc = eje.generarNumerosAleatorios();
+        eje.ordenarDescendente(arregloDesc);
+        eje.imprimirArregloGrande(arregloDesc);
+
+        // Ejercicio F - Mostrar tablero
         eje.mostrarTablero();
-        */
+    }
+
+
     }
         
        //Person
