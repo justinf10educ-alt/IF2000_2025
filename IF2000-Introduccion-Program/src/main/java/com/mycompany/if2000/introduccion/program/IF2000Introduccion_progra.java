@@ -18,7 +18,37 @@ public class IF2000Introduccion_progra{
      */
     public static void main(String[] args) {
         // TODO code application logic here
-
+        
+        Lab1_ejercicios lab = new Lab1_ejercicios();
+        
+        lab.Ejercicio1();
+        System.out.println(" ");
+        lab.Ejercicio2();
+        System.out.println(" ");
+        lab.Ejercicio3();
+        System.out.println(" ");
+        lab.Ejercicio4();
+        System.out.println(" ");
+        lab.Ejercicio5();
+        System.out.println(" ");
+        lab.Ejercicio6();
+        System.out.println(" ");
+        lab.Ejercicio7();
+        System.out.println(" ");
+        lab.Ejercicio8();
+        System.out.println(" ");
+        lab.Ejercicio9();
+        System.out.println(" ");
+        lab.Ejercicio10();
+        System.out.println(" ");
+        lab.Ejercicio11();
+        System.out.println(" ");
+        lab.Ejercicio12();
+        /*
+        Ejercicio_Semana3_PracticaEnClase ejercicio = new Ejercicio_Semana3_PracticaEnClase();
+        ejercicio.Parte3();
+        */
+/*
         Ejercicio_Semana2_PracticaEnClase eje = new Ejercicio_Semana2_PracticaEnClase();
 
         // Ejercicio A - Dibuja una pirámide
@@ -45,6 +75,9 @@ public class IF2000Introduccion_progra{
 
         // Ejercicio F - Mostrar tablero
         eje.mostrarTablero();
+        */
+
+
     }
 
 
