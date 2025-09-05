@@ -19,6 +19,36 @@ public class IF2000Introduccion_progra{
     public static void main(String[] args) {
         // TODO code application logic here
         
+        Lab2_Ejercicios ej = new Lab2_Ejercicios();
+
+        ej.ejercicio13();
+        ej.ejercicio14();
+        ej.ejercicio15();
+        ej.ejercicio16();
+        ej.ejercicio17();
+        ej.ejercicio18();
+        ej.ejercicio19();
+        ej.ejercicio20();
+        ej.ejercicio21();
+        ej.ejercicio22();
+        ej.ejercicio23();
+        ej.ejercicio24();
+        ej.ejercicio25();
+        ej.ejercicio26();
+        ej.ejercicio27();
+    }
+}
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /*
         Lab1_ejercicios lab = new Lab1_ejercicios();
         
         lab.Ejercicio1();
