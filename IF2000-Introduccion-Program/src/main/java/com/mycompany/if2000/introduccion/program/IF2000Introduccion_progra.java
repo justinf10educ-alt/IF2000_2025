@@ -8,6 +8,7 @@ package com.mycompany.if2000.introduccion.program;
  *
  * @author Justin Flores
  */
+import domain.*;
 import logic.*;
 
 //import domain.Person;
@@ -19,6 +20,33 @@ public class IF2000Introduccion_progra{
     public static void main(String[] args) {
         // TODO code application logic here
         
+     Person client1 = new Person("Edgardo","Corrales", "1-2323-4545", "45456789", 18);
+             
+     SavingAccount account1 = new SavingAccount("2025-09-04", 12, 5, "1000567801", 25000, client1);
+     
+     //Simulation of deposit 3000 colones in the account
+     account1.deposit(3000);
+     
+     System.out.println(account1.toString());
+     
+     System.out.println("\n\n\n-------------------------------------------------");
+     System.out.println("Withdraw of money");
+     System.out.println("-------------------------------------------------\n\n");
+     
+     account1.withdraw(16000);
+     
+     System.out.println(account1.toString());
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /*
         Lab2_Ejercicios ej = new Lab2_Ejercicios();
 
         ej.ejercicio13();

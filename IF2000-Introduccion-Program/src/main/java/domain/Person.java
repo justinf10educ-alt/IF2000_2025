@@ -72,7 +72,8 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person\n"
+        return "--------------------"
+                +"\nPerson:"
                 + "\n, name=" + getName() 
                 + "\n, lastName=" + getLastName() 
                 + "\n, id=" + getId() 
