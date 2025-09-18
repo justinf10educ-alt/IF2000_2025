@@ -12,7 +12,7 @@ public abstract class Account {
 
     private String accountNumber;
     private double balance;
-    private Client accountHolder;   // <- ahora es Client
+    private Client accountHolder;
 
     public Account(String accountNumber, double balance, Client accountHolder) {
         this.accountNumber = accountNumber;

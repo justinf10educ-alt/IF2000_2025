@@ -12,7 +12,7 @@ public class Client {
 
     private String name;
     private String id;
-    private String phone;      // <- String en vez de int
+    private String phone;
     private String address;
 
     public Client(String name, String id, String phone, String address) {
