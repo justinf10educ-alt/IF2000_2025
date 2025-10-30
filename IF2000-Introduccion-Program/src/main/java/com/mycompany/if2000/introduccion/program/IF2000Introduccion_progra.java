@@ -14,13 +14,28 @@ import logic.*;
 //import domain.Person;
 public class IF2000Introduccion_progra{
     
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String args[]){
+      Laboratorio_Juego_Damas programa = new Laboratorio_Juego_Damas();
+        programa.ejecutar(); 
+   
         
-     Person client1 = new Person("Edgardo","Corrales", "1-2323-4545", "45456789", 18);
+/*
+        //public class Quiz_1_octubre {
+        */
+//Práctica de Examen.
+        Práctica_examen_1 eje = new Práctica_examen_1();
+        eje.Num_48();
+        
+        
+        
+        /*
+        Ejercicios_28_al_41 eje = new Ejercicios_28_al_41();
+        //eje.producto_dos_numeros_29();
+        eje.tablas_de_multiplicacion_30();
+        
+     
+        /*
+        Person client1 = new Person("Edgardo","Corrales", "1-2323-4545", "45456789", 18);
              
      SavingAccount account1 = new SavingAccount("2025-09-04", 12, 5, "1000567801", 25000, client1);
      
